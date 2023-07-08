@@ -12,6 +12,7 @@ import com.worldturner.medeia.schema.validation.SchemaValidator;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
+import java.util.Map;
 
 public class ReadObjectExample {
 
@@ -25,6 +26,15 @@ public class ReadObjectExample {
         JsonParser validatedParser = api.decorateJsonParser(validator, unvalidatedParser);
         Person person = objectMapper.readValue(validatedParser, Person.class);
         System.out.println(person.getFirstName());
+    }
+
+    private void parseValidExampleMap() throws IOException {
+        SchemaValidator validator = loadSchema();
+        JsonParser unvalidatedParser =
+                objectMapper.getFactory().createParser(getClass().getResource("/readobject/valid-person.json"));
+        JsonParser validatedParser = api.decorateJsonParser(validator, unvalidatedParser);
+        Object person = objectMapper.readValue(validatedParser, Object.class);
+        System.out.println(person);
     }
 
     private void parseInvalidExample() throws IOException {
@@ -54,6 +64,7 @@ public class ReadObjectExample {
 
     public static void main(String[] args) throws IOException {
         ReadObjectExample example = new ReadObjectExample();
+        example.parseValidExampleMap();
         example.parseValidExample();
         example.parseInvalidExample();
     }
