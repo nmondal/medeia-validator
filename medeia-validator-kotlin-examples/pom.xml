@@ -3,12 +3,11 @@
 
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.worldturner.medeia</groupId>
+        <groupId>org.zoomba-lang</groupId>
         <artifactId>medeia-validator-parent</artifactId>
-        <version>1.1.2-SNAPSHOT</version>
+        <version>1.5-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.worldturner.medeia</groupId>
     <artifactId>medeia-validator-kotlin-examples</artifactId>
     <packaging>jar</packaging>
     <name>Medeia Validator Kotlin Examples</name>
@@ -16,7 +15,7 @@
         Medeia streaming JSON-schema validator for the JVM platform,
         Kotlin Examples.
     </description>
-    <url>https://github.com/worldturner/medeia-validator</url>
+    <url>https://github.com/nmondal/medeia-validator</url>
 
     <properties>
         <maven.deploy.skip>true</maven.deploy.skip>

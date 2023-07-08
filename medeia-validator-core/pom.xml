@@ -3,12 +3,11 @@
 
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.worldturner.medeia</groupId>
+        <groupId>org.zoomba-lang</groupId>
         <artifactId>medeia-validator-parent</artifactId>
-        <version>1.1.2-SNAPSHOT</version>
+        <version>1.5-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.worldturner.medeia</groupId>
     <artifactId>medeia-validator-core</artifactId>
     <packaging>jar</packaging>
     <name>Medeia Validator Core</name>
@@ -16,13 +15,13 @@
         Medeia streaming JSON-schema validator for the JVM platform,
         core module.
     </description>
-    <url>https://github.com/worldturner/medeia-validator</url>
+    <url>https://github.com/nmondal/medeia-validator</url>
     <scm>
-        <connection>scm:git:git://github.comworldturner/medeia-validator.git</connection>
-        <developerConnection>scm:git:ssh://github.com:worldturner/medeia-validator.git</developerConnection>
-        <url>https://github.com/worldturner/medeia-validator.git</url>
-      <tag>HEAD</tag>
-  </scm>
+        <connection>scm:git:git://git@github.com/nmondal/medeia-validator.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/nmondal/medeia-validator.git</developerConnection>
+        <url>https://github.com/nmondal/medeia-validator.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <dependencies>
         <dependency>

@@ -3,9 +3,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.worldturner.medeia</groupId>
+    <groupId>org.zoomba-lang</groupId>
     <artifactId>medeia-validator-parent</artifactId>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>1.5-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Medeia Validator</name>
     <description>Medeia streaming JSON-schema validator for the JVM platform, parent pom</description>
