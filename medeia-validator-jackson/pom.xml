@@ -25,8 +25,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.worldturner.medeia</groupId>
+            <groupId>org.zoomba-lang</groupId>
             <artifactId>medeia-validator-core</artifactId>
+            <version>1.5-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>

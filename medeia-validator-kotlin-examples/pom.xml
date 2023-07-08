@@ -27,15 +27,15 @@
             <artifactId>kotlin-stdlib</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.worldturner.medeia</groupId>
+            <groupId>org.zoomba-lang</groupId>
             <artifactId>medeia-validator-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.worldturner.medeia</groupId>
+            <groupId>org.zoomba-lang</groupId>
             <artifactId>medeia-validator-jackson</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.worldturner.medeia</groupId>
+            <groupId>org.zoomba-lang</groupId>
             <artifactId>medeia-validator-gson</artifactId>
         </dependency>
         <dependency>
