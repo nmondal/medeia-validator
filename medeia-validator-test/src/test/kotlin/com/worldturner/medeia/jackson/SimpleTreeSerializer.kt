@@ -44,6 +44,8 @@ class SimpleTreeSerializer : StdSerializer<TreeNode>(TreeNode::class.java) {
                 }
                 gen.writeEndObject()
             }
+
+            else -> {}
         }
     }
 }
