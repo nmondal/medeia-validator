@@ -16,17 +16,17 @@ Maven dependency
 For the Jackson support
 
     <dependency>
-        <groupId>com.worldturner.medeia</groupId>
+        <groupId>org.zoomba-lang</groupId>
         <artifactId>medeia-validator-jackson</artifactId>
-        <version>1.1.0</version>
+        <version>1.5-SNAPSHOT</version>
     </dependency>
     
 For the Gson support
 
     <dependency>
-        <groupId>com.worldturner.medeia</groupId>
+        <groupId>org.zoomba-lang</groupId>
         <artifactId>medeia-validator-gson</artifactId>
-        <version>1.1.0</version>
+        <version>1.5-SNAPSHOT</version>
     </dependency>
     
 Json Schema version support
