@@ -8,7 +8,7 @@ License
 -------
 This software is licensed under the Apache License, Version 2.0.
 
-Software is copyright &copy; 2018-2019 by the authors.
+Software is copyright &copy; 2018-2024 by the authors.
 
 Maven dependency
 ----------------
@@ -18,7 +18,7 @@ For the Jackson support
     <dependency>
         <groupId>org.zoomba-lang</groupId>
         <artifactId>medeia-validator-jackson</artifactId>
-        <version>1.5-SNAPSHOT</version>
+        <version>1.5</version>
     </dependency>
     
 For the Gson support
@@ -26,7 +26,7 @@ For the Gson support
     <dependency>
         <groupId>org.zoomba-lang</groupId>
         <artifactId>medeia-validator-gson</artifactId>
-        <version>1.5-SNAPSHOT</version>
+        <version>1.5</version>
     </dependency>
     
 Json Schema version support
@@ -151,7 +151,7 @@ git submodule update --init --recursive
 Or perform the initial clone with submodules:
 
 ```bash
-git clone --recurse-submodules git@github.com:worldturner/medeia-validator.git
+git clone --recurse-submodules git@github.com:nmondal/medeia-validator.git
 ```
 
 Building is done with maven using `mvn clean install` and also executes git to retrieve the
