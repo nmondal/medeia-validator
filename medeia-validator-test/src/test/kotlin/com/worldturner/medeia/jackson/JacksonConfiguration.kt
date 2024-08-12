@@ -17,5 +17,5 @@ val mapper: ObjectMapper = ObjectMapper().also { mapper ->
     mapper.enable(DeserializationFeature.USE_BIG_INTEGER_FOR_INTS)
     mapper.enable(SerializationFeature.INDENT_OUTPUT)
     mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL)
-    mapper.registerModule(KotlinModule())
+    mapper.registerModule(KotlinModule.Builder().build())
 }
