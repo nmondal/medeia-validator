@@ -12,7 +12,6 @@ import com.worldturner.util.JsonParseException
 import com.worldturner.util.JsonValidator
 import java.net.URI
 import java.util.Base64
-import java.util.Locale
 
 class DecodingResult(
     val array: ByteArray? = null,
@@ -31,8 +30,8 @@ class ContentValidator(
     contentEncoding: String?
 ) : SchemaValidator, SchemaValidatorInstance {
 
-    val contentMediaType: String? = contentMediaType?.let { it.toLowerCase(Locale.US) }
-    val contentEncoding: String? = contentEncoding?.let { it.toLowerCase(Locale.US) }
+    val contentMediaType: String? = contentMediaType?.let { it.lowercase() }
+    val contentEncoding: String? = contentEncoding?.let { it.lowercase() }
 
     override fun createInstance(startLevel: Int): SchemaValidatorInstance = this
 

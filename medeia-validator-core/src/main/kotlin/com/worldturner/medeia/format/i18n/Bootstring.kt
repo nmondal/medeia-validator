@@ -105,7 +105,7 @@ class BootstringParameters(
     val basicCodePoints: String
 ) {
     private val basicCodePointArray = IntArray(initialN.toInt()) {
-        basicCodePoints.indexOf(it.toChar().toLowerCase())
+        basicCodePoints.indexOf(it.toChar().lowercaseChar())
     }
 
     fun isBasicCodePoint(ch: Int) = ch < initialN && basicCodePointArray[ch.toInt()] >= 0

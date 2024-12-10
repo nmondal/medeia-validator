@@ -33,7 +33,6 @@ import com.worldturner.util.withEmptyFragment
 import java.math.BigDecimal
 import java.net.URI
 import java.util.EnumSet
-import java.util.Locale
 
 data class JsonSchema constructor(
     val schema: URI? = null,
@@ -219,7 +218,7 @@ enum class SimpleType {
     STRING;
 
     override fun toString(): String {
-        return super.toString().toLowerCase(Locale.US)
+        return super.toString().lowercase()
     }
 }
 

@@ -7,7 +7,6 @@ import com.worldturner.medeia.api.ValidationFailedException
 import com.worldturner.medeia.api.gson.MedeiaGsonApi
 import com.worldturner.medeia.schema.validation.SchemaValidator
 import java.io.InputStreamReader
-import java.util.Locale
 
 class CustomFormatExample {
     private val api = MedeiaGsonApi()
@@ -51,7 +50,7 @@ class PalindromeValidator : FormatValidation {
     override fun validate(value: Any?, format: String): String? {
         val text = value.toString()
         val nospaces = text.replace("\\s+".toRegex(), "")
-        val lowercase = nospaces.toLowerCase(Locale.US)
+        val lowercase = nospaces.lowercase()
         val reversed = StringBuffer(lowercase).also { it.reverse() }.toString()
         return if (lowercase != reversed) "not a palindrome" else null
     }

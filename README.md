@@ -18,7 +18,7 @@ For the Jackson support
     <dependency>
         <groupId>org.zoomba-lang</groupId>
         <artifactId>medeia-validator-jackson</artifactId>
-        <version>1.5</version>
+        <version>1.6</version>
     </dependency>
 This is currently broken due to being dependent of `1.5-SNAPSHOT` version of `core` dependencies, 
 we are working to fix it. In between please use `1.6-SNAPSHOT`.
@@ -28,7 +28,7 @@ For the Gson support
     <dependency>
         <groupId>org.zoomba-lang</groupId>
         <artifactId>medeia-validator-gson</artifactId>
-        <version>1.5</version>
+        <version>1.6</version>
     </dependency>
     
 Json Schema version support
