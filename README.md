@@ -20,8 +20,6 @@ For the Jackson support
         <artifactId>medeia-validator-jackson</artifactId>
         <version>1.6</version>
     </dependency>
-This is currently broken due to being dependent of `1.5-SNAPSHOT` version of `core` dependencies, 
-we are working to fix it. In between please use `1.6-SNAPSHOT`.
     
 For the Gson support
 
